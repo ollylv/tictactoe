@@ -15,30 +15,29 @@ th {
 	border: 3px solid white;
 	padding: 0;
 	font-family: courier;
-	font-size: 100%;
 }
 
-th:active{
+th:active {
  	background-color:#0059b3;
  }
 
 
 
-#wrapper{
+#wrapper {
 	height: auto;
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#dropdown{
+#dropdown {
 	width: 50px;
 	height: 50px;
  	margin-top: 100px;
 }
 
 
-#selection{
+#selection {
 	font-size: 37px;
 	background-color: black;
 	color: white;
@@ -46,10 +45,8 @@ th:active{
 	font-family: courier;
 }
 
- #block{
- 	margin: 0;
+ #block {
  	margin-top: 200px;
- 	z-index: 1;
  }
 
  .cell {
