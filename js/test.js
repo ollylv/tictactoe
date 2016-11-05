@@ -57,8 +57,7 @@ $playerval.change(function(){
 			go = 'O';
 		}
 	}
-
-	console.log(getVal());
+	
 
 });
 
