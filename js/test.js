@@ -6,7 +6,6 @@ var $playerval = $('#selection');
 var $dropdown = $('#dropdown');
 var	$gameblock = $('#block');
 var $square = $('.cell');
-var $selectedPlayer = $('#selection option:selected');
 var $selectedPlayerO = $("#selection option[value='O']");
 var $selectedPlayerX = $("#selection option[value='X']");
 
@@ -40,11 +39,11 @@ setTimeout(biggerText,2600);
 
 //playerChange value.
 
-$playerval.on('change',function(){
+$playerval.change(function(){
 
-	var che ='';
+	var che = '';
 
-	$selectedPlayer.each(function(){
+	$('#selection option:selected').each(function(){
 		che += $(this).text();
 	});
 
@@ -52,18 +51,18 @@ $playerval.on('change',function(){
 	function getVal(){
 
 		if(che == 'Player X'){
-			go = 'X'
+			go = 'X';
 		}
 		else{
-			go = 'O'
+			go = 'O';
 		}
 	}
 
-	getVal();
+	console.log(getVal());
 
 });
 
-$playerval.change();
+	$playerval.change();
 
 
 
