@@ -69,7 +69,7 @@ $playerval.change(function(){
 
 $square.one('click', function(){
 
-	$(event.target).text(go);
+	$(this).text(go);
 
 	$dropdown.fadeOut('slow');
 
