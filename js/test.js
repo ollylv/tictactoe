@@ -73,9 +73,9 @@ $square.one('click', function(){
 
 	$dropdown.fadeOut('slow');
 
-	var elementsId = $(event.target).attr('id');
+	var elementsId = $(this).attr('id');
 	var cellState = go;
-	var cellStateActive = $(event.target).val();
+	var cellStateActive = $(this).val();
 	var checker = elementsId+cellState;
 
 	// uz rutinjas klikshja njem vertibu no inputa un aivieto tekstu uz temetas rutinjas.
